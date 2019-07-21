@@ -1,5 +1,6 @@
 <section class="post bg0 p-t-85">
 		<div class="container">
+			
 			<div class="row justify-content-center">
 				<div class="col-md-10 col-lg-8">
 					<div class="p-r-10 p-rl-0-sr991 p-b-20">
