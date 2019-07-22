@@ -12,7 +12,7 @@
 					<!-- Item latest -->	
 					<div class="m-b-45">
 						<a href="blog-detail-02.html" class="wrap-pic-w hov1 trans-03">
-							<img src="{{{{(URL::to('frontend/images/latest-01.jpg')}}" alt="IMG">
+							<img src="{{URL::to('frontend/images/latest-01.jpg')}}" alt="IMG">
 						</a>
 
 						<div class="p-t-16">
@@ -43,7 +43,7 @@
 					<!-- Item latest -->	
 					<div class="m-b-45">
 						<a href="blog-detail-02.html" class="wrap-pic-w hov1 trans-03">
-							<img src="{{(URL::to('frontend/images/latest-02.jpg')}}" alt="IMG">
+							<img src="{{URL::to('frontend/images/latest-02.jpg')}}" alt="IMG">
 						</a>
 
 						<div class="p-t-16">
@@ -74,7 +74,7 @@
 					<!-- Item latest -->	
 					<div class="m-b-45">
 						<a href="blog-detail-02.html" class="wrap-pic-w hov1 trans-03">
-							<img src="{{(URL::to('frontend/images/latest-03.jpg')}}" alt="IMG">
+							<img src="{{URL::to('frontend/images/latest-03.jpg')}}" alt="IMG">
 						</a>
 
 						<div class="p-t-16">
@@ -105,7 +105,7 @@
 					<!-- Item latest -->	
 					<div class="m-b-45">
 						<a href="blog-detail-02.html" class="wrap-pic-w hov1 trans-03">
-							<img src="{{(URL::to('frontend/images/latest-04.jpg')}}" alt="IMG">
+							<img src="{{URL::to('frontend/images/latest-04.jpg')}}" alt="IMG">
 						</a>
 
 						<div class="p-t-16">
@@ -136,7 +136,7 @@
 					<!-- Item latest -->	
 					<div class="m-b-45">
 						<a href="blog-detail-02.html" class="wrap-pic-w hov1 trans-03">
-							<img src="{{(URL::to('frontend/images/latest-05.jpg')}}" alt="IMG">
+							<img src="{{URL::to('frontend/images/latest-05.jpg')}}" alt="IMG">
 						</a>
 
 						<div class="p-t-16">
@@ -167,7 +167,7 @@
 					<!-- Item latest -->	
 					<div class="m-b-45">
 						<a href="blog-detail-02.html" class="wrap-pic-w hov1 trans-03">
-							<img src="{{(URL::to('frontend/images/latest-06.jpg')}}" alt="IMG">
+							<img src="{{URL::to('frontend/images/latest-06.jpg')}}" alt="IMG">
 						</a>
 
 						<div class="p-t-16">
