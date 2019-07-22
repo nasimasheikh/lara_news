@@ -33,7 +33,7 @@
 									New York, NY
 								</span>
 
-								<img class="m-b-1 m-rl-8" src="images/icons/icon-night.png" alt="IMG">
+								<img class="m-b-1 m-rl-8" src="{{URL::to('frontend/images/icons/icon-night.png')}}" alt="IMG">
 
 								<span>
 									HI 58° LO 56°
@@ -88,7 +88,7 @@
 			<div class="wrap-header-mobile">
 				<!-- Logo moblie -->		
 				<div class="logo-mobile">
-					<a href="index.html"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
+					<a href="index.html"><img src="{{URL::to('frontend/images/icons/logo-01.png')}}" alt="IMG-LOGO"></a>
 				</div>
 
 				<!-- Button show menu -->
@@ -108,7 +108,7 @@
 								New York, NY
 							</span>
 
-							<img class="m-b-1 m-rl-8" src="images/icons/icon-night.png" alt="IMG">
+							<img class="m-b-1 m-rl-8" src="{{URL::to('frontend/images/icons/icon-night.png')}}" alt="IMG">
 
 							<span>
 								HI 58° LO 56°
@@ -220,7 +220,7 @@
 			<div class="wrap-logo no-banner container">
 				<!-- Logo desktop -->		
 				<div class="logo">
-					<a href="index.html"><img src="images/icons/logo-01.png" alt="LOGO"></a>
+					<a href="index.html"><img src="{{URL::to('frontend/images/icons/logo-01.png')}}" alt="LOGO"></a>
 				</div>
 			</div>	
 			
@@ -230,7 +230,7 @@
 					<!-- Menu desktop -->
 					<nav class="menu-desktop">
 						<a class="logo-stick" href="index.html">
-							<img src="images/icons/logo-01.png" alt="LOGO">
+							<img src="{{URL::to('frontend/{{URL::to('frontend/images/icons/logo-01.png')}}" alt="LOGO">
 						</a>
 
 						<ul class="main-menu justify-content-center">
@@ -263,7 +263,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-05.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-05.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -294,7 +294,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-10.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-10.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -325,7 +325,9 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-14.jpg" alt="IMG">
+															<img src="
+
+													{{URL::to('frontend/images/post-14.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -356,7 +358,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-36.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-36.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -391,7 +393,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-50.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-50.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -422,7 +424,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-08.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-08.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -453,7 +455,8 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-07.jpg" alt="IMG">
+															<img src="
+															{{URL::to('frontend/images/post-07.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -484,7 +487,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-06.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-06.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -519,7 +522,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-21.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-21.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -550,7 +553,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-24.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-24.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -581,7 +584,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-22.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-22.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -612,7 +615,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-23.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-23.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -647,7 +650,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-25.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-25.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -678,7 +681,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-27.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-27.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -709,7 +712,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-26.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-26.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -740,7 +743,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-34.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-34.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -775,7 +778,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-35.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-35.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -806,7 +809,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-36.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-36.jpg')}}')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -837,7 +840,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-37.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-37.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -868,7 +871,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-38.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-38.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -903,7 +906,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-39.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-39.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -934,7 +937,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-41.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-41.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -965,7 +968,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-42.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-42.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -996,7 +999,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-40.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-40.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1045,7 +1048,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-25.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-25.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1076,7 +1079,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-27.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-27.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1107,7 +1110,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-26.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-26.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1138,7 +1141,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-34.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-34.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1173,7 +1176,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-35.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-35.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1204,7 +1207,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-36.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-36.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1235,7 +1238,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-37.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-37.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1266,7 +1269,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-38.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-38.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1301,7 +1304,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-39.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-39.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1332,7 +1335,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-41.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-41.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1363,7 +1366,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-42.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-42.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1394,7 +1397,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-40.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-40.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1442,7 +1445,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-10.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-10.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1473,7 +1476,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-11.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-11.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1504,7 +1507,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-26.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-26.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1535,7 +1538,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-34.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-34.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1570,7 +1573,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-35.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-35.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1601,7 +1604,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-36.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-36.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1632,7 +1635,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-37.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-37.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1663,7 +1666,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-38.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-38.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1711,7 +1714,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-39.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-39.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1742,7 +1745,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-41.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-41.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1773,7 +1776,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-42.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-42.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1804,7 +1807,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-40.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-40.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1839,7 +1842,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-35.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-35.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1871,7 +1874,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-36.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-36.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1902,7 +1905,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-37.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-37.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1933,7 +1936,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-38.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-38.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -1980,7 +1983,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-25.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-25.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -2011,7 +2014,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-27.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-27.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -2042,7 +2045,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-26.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-26.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -2073,7 +2076,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-34.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-34.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -2120,7 +2123,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-50.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-50.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -2151,7 +2154,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-08.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-08.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -2182,7 +2185,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-07.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-07.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
@@ -2213,7 +2216,7 @@
 													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="images/post-06.jpg" alt="IMG">
+															<img src="{{URL::to('frontend/images/post-06.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
