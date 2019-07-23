@@ -493,6 +493,6 @@
 					</div>
 				</div>
 			</div>
-			
+			@include('backend.layouts.footer')
 		</div>
 @stop
