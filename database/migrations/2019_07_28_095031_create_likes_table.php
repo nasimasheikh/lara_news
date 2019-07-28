@@ -13,7 +13,14 @@ class CreateLikesTable extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('likes', function (Blueprint $table) { 
+             $table->increments('id'); 
+             $table->integer('user_id'); 
+             $table->integer('post_or_comment_id'); 
+             $table->boolean('isPost'); 
+             $table->timestamps(); 
+         }); 
+
     }
 
     /**
@@ -23,6 +30,6 @@ class CreateLikesTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('likes');
     }
 }
