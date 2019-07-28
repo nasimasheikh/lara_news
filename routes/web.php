@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('frontend.pages.home');
 });
 Route::resource('/admin', 'DashboardController');
+Route::resource('/admin/category', 'CategoryController');
