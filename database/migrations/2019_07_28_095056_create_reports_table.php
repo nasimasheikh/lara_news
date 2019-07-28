@@ -13,7 +13,15 @@ class CreateReportsTable extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('reports', function (Blueprint $table) { 
+             $table->increments('id'); 
+             $table->integer('user_id'); 
+             $table->integer('post_or_comment_id'); 
+             $table->boolean('isPost'); 
+             $table->string('reason'); 
+             $table->timestamps(); 
+         }); 
+
     }
 
     /**
@@ -23,6 +31,6 @@ class CreateReportsTable extends Migration
      */
     public function down()
     {
-        //
+       Schema::drop('reports');
     }
 }
