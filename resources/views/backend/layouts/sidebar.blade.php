@@ -3,12 +3,12 @@
 				<div class="sidebar-content">
 					<div class="user">
 						<div class="avatar-sm float-left mr-2">
-							<img src="{{URL::to('backend/img/profile.jpg')}}" alt="..." class="avatar-img rounded-circle">
+							<img src="{{URL::to('backend/img/flower_yellow.png')}}" alt="..." class="avatar-img rounded-circle">
 						</div>
 						<div class="info">
 							<a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
 								<span>
-									Hizrian
+									Putul
 									<span class="user-level">Administrator</span>
 									<span class="caret"></span>
 								</span>
@@ -45,14 +45,10 @@
 							</a>
 							<div class="collapse" id="dashboard">
 								<ul class="nav nav-collapse">
-									<li>
-										<a href="../demo1/index.html">
-											<span class="sub-item">Dashboard 1</span>
-										</a>
-									</li>
+									
 									<li>
 										<a href="../demo2/index.html">
-											<span class="sub-item">Dashboard 2</span>
+											<span class="sub-item">Dashboard </span>
 										</a>
 									</li>
 								</ul>
