@@ -27,6 +27,15 @@ class UsersTableSeeder extends Seeder
         'remember_token'=>str_random(5)
 
         ]);
+          User::create(
+
+        ['name'=>'taslima',
+        'email'=>'taslima@gmail.com',
+        'password'=>Hash::make('taslimal12'),
+        'remember_token'=>str_random(5)
+
+        ]);
+
 
     }
 }
