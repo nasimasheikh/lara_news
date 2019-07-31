@@ -16,3 +16,11 @@ Route::get('/', function () {
 });
 Route::resource('/admin', 'DashboardController');
 Route::resource('/admin/category', 'CategoryController');
+
+Route::get('/main','MainController@index');
+Route::get('/main/register','MainController@create')->name('main.create');
+Route::post('/main/store','MainController@store')->name('main.store');
+Route::post('/main/check','MainController@checkUser');
+Route::get('/main/successlogin','MainController@successlogin');
+Route::get('/main/logout','MainController@logout');
+
