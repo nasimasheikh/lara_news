@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Hash;
 use  Auth;
 use App\User;
 
@@ -23,15 +23,16 @@ class MainController extends Controller
        'email'=>'required|email',
        'password'=>'required|min:5',
     ]);
-    $user_data = array(
+    
 
-      'email'=>$request->email,
-      'password'=>$request->password,
-    );
-       if(Auth::attempt($user_data)){
-
-       return redirect('main/successlogin');
-       }
+      $email=$request->email;
+      $user=User::where('email',$request->email)->first();
+      $hashedPassword=$user->password;
+   
+      if (Hash::check($request->password, $hashedPassword)) {
+        return redirect('main/successlogin');
+      }
+       
 
        else 
        {
