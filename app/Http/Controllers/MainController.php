@@ -28,8 +28,9 @@ class MainController extends Controller
       $email=$request->email;
       $user=User::where('email',$request->email)->first();
       $hashedPassword=$user->password;
+      $formpassword=$request->password;
    
-      if (Hash::check($request->password, $hashedPassword)) {
+      if (Hash::check($formpassword, $hashedPassword)) {
         return redirect('main/successlogin');
       }
        
